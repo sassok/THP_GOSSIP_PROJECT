@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+User.destroy_all
+Gossip.destroy_all
+
+require 'faker'
+10.times do |f|
+  users = User.create!(name: Faker::Name.first_name)
+  gossips = Gossip.create!(title: Faker::Restaurant.name, content: Faker::Restaurant.description, user: User.find(f+1))
+  gossips = Gossip.create!(title: Faker::Restaurant.name, content: Faker::Restaurant.description, user: User.find(f+1))
+end
