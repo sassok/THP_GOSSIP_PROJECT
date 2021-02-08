@@ -799,3 +799,449 @@ Processing by WelcomeController#show as HTML
 Completed 200 OK in 24ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 8091)
 
 
+Started GET "/welcome/MACHINBIDULE%20DE%20OUF" for 127.0.0.1 at 2021-02-08 14:30:48 +0100
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#show as HTML
+  Parameters: {"name"=>"MACHINBIDULE DE OUF"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/show.html.erb within layouts/application
+  Rendered welcome/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 51.1ms | Allocations: 14990)
+Completed 200 OK in 63ms (Views: 55.7ms | ActiveRecord: 0.0ms | Allocations: 17654)
+
+
+Started GET "/" for 127.0.0.1 at 2021-02-08 14:30:58 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/volpito/.rvm/gems/ruby-2.7.1/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/volpito/.rvm/gems/ruby-2.7.1/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.4ms | Allocations: 334)
+Completed 200 OK in 17ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 2599)
+
+
+Started GET "/home/" for 127.0.0.1 at 2021-02-08 14:31:10 +0100
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 251)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 6292)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms | Allocations: 8637)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after ".../sass-lang.com/": expected 1 selector or at-rule, was '<nav class="navbar '
+        on line 1:1 of app/assets/stylesheets/home.scss
+>> // Place all the styles related to the home controller here.
+
+   ^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <h1> Bonjour ! </h1>
+    11:     </head>
+    12: 
+  
+app/assets/stylesheets/home.scss:1
+app/views/layouts/application.html.erb:9
+Started GET "/home/" for 127.0.0.1 at 2021-02-08 14:31:57 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 251)
+  Rendered layout layouts/application.html.erb (Duration: 25.5ms | Allocations: 5060)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms | Allocations: 7405)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after ".../sass-lang.com/": expected 1 selector or at-rule, was '<nav class="navbar '
+        on line 1:1 of app/assets/stylesheets/home.scss
+>> // Place all the styles related to the home controller here.
+
+   ^
+):
+    31:     <%= csrf_meta_tags %>
+    32:     <%= csp_meta_tag %>
+    33: 
+    34:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    35:     <h1> Bonjour ! </h1>
+    36:     </head>
+    37: 
+  
+app/assets/stylesheets/home.scss:1
+app/views/layouts/application.html.erb:34
+Started GET "/home/" for 127.0.0.1 at 2021-02-08 14:32:13 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 251)
+  Rendered layout layouts/application.html.erb (Duration: 56.4ms | Allocations: 16216)
+Completed 200 OK in 68ms (Views: 60.1ms | ActiveRecord: 0.0ms | Allocations: 18593)
+
+
+Started GET "/home/" for 127.0.0.1 at 2021-02-08 14:40:53 +0100
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 251)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 4366)
+Completed 200 OK in 18ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 6744)
+
+
+Started GET "/home/" for 127.0.0.1 at 2021-02-08 14:42:41 +0100
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 251)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 4366)
+Completed 200 OK in 18ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 6744)
+
+
+Started GET "/home/" for 127.0.0.1 at 2021-02-08 14:42:46 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 251)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 4366)
+Completed 200 OK in 19ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 6744)
+
+
+Started GET "/home/" for 127.0.0.1 at 2021-02-08 14:45:52 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 251)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 4366)
+Completed 200 OK in 15ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 6744)
+
+
+Started GET "/home/bootstrap/css/bootstrap.min.css" for 127.0.0.1 at 2021-02-08 14:45:52 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/home/bootstrap/css/bootstrap.min.css"):
+  
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 14:52:00 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.6ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 2266.3ms | Allocations: 29566)
+Completed 200 OK in 2275ms (Views: 2268.6ms | ActiveRecord: 0.0ms | Allocations: 32231)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 14:54:09 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.7ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 4426)
+Completed 200 OK in 17ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 7092)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 14:55:53 +0100
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.6ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 4426)
+Completed 200 OK in 16ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 7092)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 14:56:05 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.6ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 4370)
+Completed 200 OK in 17ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 7036)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 14:57:13 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.6ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 585.5ms | Allocations: 17336)
+Completed 200 OK in 594ms (Views: 587.9ms | ActiveRecord: 0.0ms | Allocations: 20002)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 15:00:36 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.6ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 1851.6ms | Allocations: 70078)
+Completed 200 OK in 1860ms (Views: 1854.0ms | ActiveRecord: 0.0ms | Allocations: 72743)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 15:01:16 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.6ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 1983.3ms | Allocations: 79716)
+Completed 200 OK in 1993ms (Views: 1985.8ms | ActiveRecord: 0.0ms | Allocations: 82381)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 15:03:48 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.6ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 2540.0ms | Allocations: 88755)
+Completed 200 OK in 2550ms (Views: 2542.6ms | ActiveRecord: 0.0ms | Allocations: 91420)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 15:04:02 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.7ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 1837.9ms | Allocations: 77454)
+Completed 200 OK in 1847ms (Views: 1840.4ms | ActiveRecord: 0.0ms | Allocations: 80119)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 15:04:22 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.6ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 1878.9ms | Allocations: 78918)
+Completed 200 OK in 1888ms (Views: 1881.5ms | ActiveRecord: 0.0ms | Allocations: 81583)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 15:06:05 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.6ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 1850.9ms | Allocations: 77932)
+Completed 200 OK in 1859ms (Views: 1853.2ms | ActiveRecord: 0.0ms | Allocations: 80597)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 15:07:16 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.7ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 1788.2ms | Allocations: 79430)
+Completed 200 OK in 1798ms (Views: 1791.5ms | ActiveRecord: 0.0ms | Allocations: 82095)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 15:07:55 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.6ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 36.9ms | Allocations: 11826)
+Completed 200 OK in 46ms (Views: 39.3ms | ActiveRecord: 0.0ms | Allocations: 14492)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 15:09:28 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.6ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 33.7ms | Allocations: 11826)
+Completed 200 OK in 43ms (Views: 36.0ms | ActiveRecord: 0.0ms | Allocations: 14492)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 15:10:22 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.7ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 1825.6ms | Allocations: 78794)
+Completed 200 OK in 1835ms (Views: 1828.1ms | ActiveRecord: 0.0ms | Allocations: 81459)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 15:10:54 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.6ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 1804.3ms | Allocations: 81255)
+Completed 200 OK in 1813ms (Views: 1806.7ms | ActiveRecord: 0.0ms | Allocations: 83920)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 15:11:59 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.7ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 37.8ms | Allocations: 11824)
+Completed 200 OK in 48ms (Views: 41.3ms | ActiveRecord: 0.0ms | Allocations: 14490)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 15:13:00 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.6ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 39.5ms | Allocations: 11824)
+Completed 200 OK in 48ms (Views: 41.9ms | ActiveRecord: 0.0ms | Allocations: 14490)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 15:13:04 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.6ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 34.1ms | Allocations: 11824)
+Completed 200 OK in 43ms (Views: 36.5ms | ActiveRecord: 0.0ms | Allocations: 14490)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:13:06 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.7ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 39.3ms | Allocations: 11824)
+Completed 200 OK in 48ms (Views: 41.8ms | ActiveRecord: 0.0ms | Allocations: 14490)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:13:38 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 37.3ms | Allocations: 11824)
+Completed 200 OK in 46ms (Views: 39.7ms | ActiveRecord: 0.0ms | Allocations: 14490)
+
+
+Started GET "/home/" for 127.0.0.1 at 2021-02-08 15:13:40 +0100
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 251)
+  Rendered layout layouts/application.html.erb (Duration: 28.1ms | Allocations: 11842)
+Completed 200 OK in 37ms (Views: 31.0ms | ActiveRecord: 0.0ms | Allocations: 14220)
+
+
+Started GET "/home/" for 127.0.0.1 at 2021-02-08 15:14:39 +0100
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 251)
+  Rendered layout layouts/application.html.erb (Duration: 1804.3ms | Allocations: 79774)
+Completed 200 OK in 1812ms (Views: 1806.7ms | ActiveRecord: 0.0ms | Allocations: 82151)
+
+
+Started GET "/home/" for 127.0.0.1 at 2021-02-08 15:14:48 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 251)
+  Rendered layout layouts/application.html.erb (Duration: 1862.6ms | Allocations: 78428)
+Completed 200 OK in 1871ms (Views: 1865.3ms | ActiveRecord: 0.0ms | Allocations: 80805)
+
+
+Started GET "/home/" for 127.0.0.1 at 2021-02-08 15:15:35 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 251)
+  Rendered layout layouts/application.html.erb (Duration: 1841.8ms | Allocations: 78977)
+Completed 200 OK in 1850ms (Views: 1844.1ms | ActiveRecord: 0.0ms | Allocations: 81354)
+
+
+Started GET "/home/" for 127.0.0.1 at 2021-02-08 15:16:52 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 251)
+  Rendered layout layouts/application.html.erb (Duration: 2065.2ms | Allocations: 86392)
+Completed 200 OK in 2075ms (Views: 2069.0ms | ActiveRecord: 0.0ms | Allocations: 88769)
+
+
+Started GET "/home/" for 127.0.0.1 at 2021-02-08 15:17:08 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 251)
+  Rendered layout layouts/application.html.erb (Duration: 33.3ms | Allocations: 11847)
+Completed 200 OK in 41ms (Views: 35.7ms | ActiveRecord: 0.0ms | Allocations: 14225)
+
+
+Started GET "/" for 127.0.0.1 at 2021-02-08 15:17:08 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/volpito/.rvm/gems/ruby-2.7.1/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/volpito/.rvm/gems/ruby-2.7.1/gems/railties-6.1.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.4ms | Allocations: 334)
+Completed 200 OK in 15ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 2599)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 15:17:13 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.6ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 11829)
+Completed 200 OK in 32ms (Views: 26.0ms | ActiveRecord: 0.0ms | Allocations: 14495)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 15:18:35 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.6ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 57.8ms | Allocations: 15619)
+Completed 200 OK in 66ms (Views: 60.2ms | ActiveRecord: 0.0ms | Allocations: 18285)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 15:18:47 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.7ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 34.8ms | Allocations: 11829)
+Completed 200 OK in 44ms (Views: 37.4ms | ActiveRecord: 0.0ms | Allocations: 14495)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:18:48 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 235)
+  Rendered layout layouts/application.html.erb (Duration: 34.1ms | Allocations: 11831)
+Completed 200 OK in 42ms (Views: 36.2ms | ActiveRecord: 0.0ms | Allocations: 14497)
+
+
