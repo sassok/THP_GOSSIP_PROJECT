@@ -1245,3 +1245,393 @@ Processing by StaticPagesController#team as HTML
 Completed 200 OK in 42ms (Views: 36.2ms | ActiveRecord: 0.0ms | Allocations: 14497)
 
 
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:23:20 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 235)
+  Rendered layout layouts/application.html.erb (Duration: 2284.0ms | Allocations: 91835)
+Completed 200 OK in 2293ms (Views: 2286.4ms | ActiveRecord: 0.0ms | Allocations: 94500)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:25:12 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.8ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 56.4ms | Allocations: 14668)
+Completed 200 OK in 66ms (Views: 59.8ms | ActiveRecord: 0.0ms | Allocations: 17334)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:25:54 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 35.1ms | Allocations: 11830)
+Completed 200 OK in 44ms (Views: 37.5ms | ActiveRecord: 0.0ms | Allocations: 14496)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:38:17 +0100
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 1.4ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 2034.8ms | Allocations: 88429)
+Completed 200 OK in 2047ms (Views: 2038.3ms | ActiveRecord: 0.0ms | Allocations: 91094)
+
+
+Started GET "/static_pages/sun.jpg" for 127.0.0.1 at 2021-02-08 15:38:20 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/sun.jpg"):
+  
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:39:00 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.7ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 35.9ms | Allocations: 11841)
+Completed 200 OK in 45ms (Views: 38.7ms | ActiveRecord: 0.0ms | Allocations: 14507)
+
+
+Started GET "/static_pages/sun.jpg" for 127.0.0.1 at 2021-02-08 15:39:01 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/sun.jpg"):
+  
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:40:13 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1940.0ms | Allocations: 85969)
+Completed 200 OK in 1949ms (Views: 1943.2ms | ActiveRecord: 0.0ms | Allocations: 88634)
+
+
+Started GET "/static_pages/images/sun.jpg" for 127.0.0.1 at 2021-02-08 15:40:16 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/images/sun.jpg"):
+  
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:40:23 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.7ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 34.8ms | Allocations: 12070)
+Completed 200 OK in 44ms (Views: 37.5ms | ActiveRecord: 0.0ms | Allocations: 14736)
+
+
+Started GET "/images/sun.jpg" for 127.0.0.1 at 2021-02-08 15:40:24 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/images/sun.jpg"):
+  
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:47:00 +0100
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 1.5ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 42.1ms | Allocations: 12073)
+Completed 200 OK in 55ms (Views: 45.3ms | ActiveRecord: 0.0ms | Allocations: 14739)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:47:32 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 56.6ms | Allocations: 15101)
+Completed 200 OK in 65ms (Views: 59.0ms | ActiveRecord: 0.0ms | Allocations: 17767)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:47:59 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 2001.2ms | Allocations: 83984)
+Completed 200 OK in 2010ms (Views: 2003.7ms | ActiveRecord: 0.0ms | Allocations: 86649)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:49:17 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 1.5ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1924.6ms | Allocations: 81168)
+Completed 200 OK in 1939ms (Views: 1928.7ms | ActiveRecord: 0.0ms | Allocations: 83833)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:49:33 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1894.5ms | Allocations: 82245)
+Completed 200 OK in 1903ms (Views: 1896.9ms | ActiveRecord: 0.0ms | Allocations: 84910)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:49:42 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.7ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1876.6ms | Allocations: 81938)
+Completed 200 OK in 1886ms (Views: 1879.5ms | ActiveRecord: 0.0ms | Allocations: 84603)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:49:52 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1820.2ms | Allocations: 82065)
+Completed 200 OK in 1830ms (Views: 1822.9ms | ActiveRecord: 0.0ms | Allocations: 84730)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:50:06 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1750.1ms | Allocations: 81657)
+Completed 200 OK in 1759ms (Views: 1752.7ms | ActiveRecord: 0.0ms | Allocations: 84322)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:50:21 +0100
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.7ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1914.7ms | Allocations: 83803)
+Completed 200 OK in 1925ms (Views: 1917.5ms | ActiveRecord: 0.0ms | Allocations: 86468)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:50:35 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.9ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1764.3ms | Allocations: 83324)
+Completed 200 OK in 1775ms (Views: 1767.9ms | ActiveRecord: 0.0ms | Allocations: 85989)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:50:47 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1866.1ms | Allocations: 81135)
+Completed 200 OK in 1876ms (Views: 1868.6ms | ActiveRecord: 0.0ms | Allocations: 83800)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:50:57 +0100
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.8ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 2165.6ms | Allocations: 83563)
+Completed 200 OK in 2177ms (Views: 2168.8ms | ActiveRecord: 0.0ms | Allocations: 86228)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:51:16 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1856.7ms | Allocations: 82318)
+Completed 200 OK in 1866ms (Views: 1859.9ms | ActiveRecord: 0.0ms | Allocations: 84983)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:51:27 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1820.4ms | Allocations: 82827)
+Completed 200 OK in 1831ms (Views: 1823.0ms | ActiveRecord: 0.0ms | Allocations: 85492)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:51:38 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1823.4ms | Allocations: 84309)
+Completed 200 OK in 1833ms (Views: 1826.6ms | ActiveRecord: 0.0ms | Allocations: 86974)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:51:50 +0100
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.7ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1867.4ms | Allocations: 83299)
+Completed 200 OK in 1878ms (Views: 1871.1ms | ActiveRecord: 0.0ms | Allocations: 85964)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:52:04 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.7ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1862.6ms | Allocations: 83535)
+Completed 200 OK in 1872ms (Views: 1865.3ms | ActiveRecord: 0.0ms | Allocations: 86200)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:52:17 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1731.4ms | Allocations: 81992)
+Completed 200 OK in 1740ms (Views: 1733.7ms | ActiveRecord: 0.0ms | Allocations: 84657)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:52:47 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 12073)
+Completed 200 OK in 36ms (Views: 29.6ms | ActiveRecord: 0.0ms | Allocations: 14739)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:54:47 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1859.0ms | Allocations: 82740)
+Completed 200 OK in 1868ms (Views: 1861.3ms | ActiveRecord: 0.0ms | Allocations: 85405)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:54:59 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1858.6ms | Allocations: 85360)
+Completed 200 OK in 1867ms (Views: 1861.0ms | ActiveRecord: 0.0ms | Allocations: 88025)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:55:39 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1930.6ms | Allocations: 83498)
+Completed 200 OK in 1940ms (Views: 1933.0ms | ActiveRecord: 0.0ms | Allocations: 86163)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:56:03 +0100
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.7ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1839.0ms | Allocations: 82956)
+Completed 200 OK in 1849ms (Views: 1841.9ms | ActiveRecord: 0.0ms | Allocations: 85621)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:56:31 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.7ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1845.6ms | Allocations: 84070)
+Completed 200 OK in 1855ms (Views: 1848.4ms | ActiveRecord: 0.0ms | Allocations: 86735)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:56:43 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.7ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1894.6ms | Allocations: 83709)
+Completed 200 OK in 1904ms (Views: 1897.2ms | ActiveRecord: 0.0ms | Allocations: 86374)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:57:04 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.5ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1846.9ms | Allocations: 83720)
+Completed 200 OK in 1856ms (Views: 1849.4ms | ActiveRecord: 0.0ms | Allocations: 86385)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:57:19 +0100
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1760.8ms | Allocations: 83896)
+Completed 200 OK in 1770ms (Views: 1763.3ms | ActiveRecord: 0.0ms | Allocations: 86561)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:57:41 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1756.8ms | Allocations: 84455)
+Completed 200 OK in 1765ms (Views: 1759.3ms | ActiveRecord: 0.0ms | Allocations: 87120)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:58:13 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.5ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1831.5ms | Allocations: 83656)
+Completed 200 OK in 1840ms (Views: 1834.0ms | ActiveRecord: 0.0ms | Allocations: 86321)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 15:58:44 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 234)
+  Rendered layout layouts/application.html.erb (Duration: 1812.1ms | Allocations: 84479)
+Completed 200 OK in 1822ms (Views: 1814.8ms | ActiveRecord: 0.0ms | Allocations: 87144)
+
+
