@@ -1,0 +1,312 @@
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 11:57:25 +0100
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "the_gossip_project_development" does not exist
+):
+  
+activerecord (6.1.1) lib/active_record/connection_adapters/postgresql_adapter.rb:81:in `rescue in new_client'
+activerecord (6.1.1) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (6.1.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (6.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.1) lib/active_record/connection_handling.rb:319:in `retrieve_connection'
+activerecord (6.1.1) lib/active_record/connection_handling.rb:275:in `connection'
+activerecord (6.1.1) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.1) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.1) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.1) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.1) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.1) lib/mini_profiler/profiler.rb:373:in `call'
+railties (6.1.1) lib/rails/engine.rb:539:in `call'
+rack (2.2.3) lib/rack/lint.rb:50:in `_call'
+rack (2.2.3) lib/rack/lint.rb:38:in `call'
+rack (2.2.3) lib/rack/show_exceptions.rb:23:in `call'
+rack (2.2.3) lib/rack/common_logger.rb:38:in `call'
+shotgun (0.9.2) lib/shotgun/loader.rb:86:in `proceed_as_child'
+shotgun (0.9.2) lib/shotgun/loader.rb:31:in `call!'
+shotgun (0.9.2) lib/shotgun/loader.rb:18:in `call'
+shotgun (0.9.2) lib/shotgun/favicon.rb:12:in `call'
+shotgun (0.9.2) lib/shotgun/static.rb:14:in `call'
+rack (2.2.3) lib/rack/urlmap.rb:74:in `block in call'
+rack (2.2.3) lib/rack/urlmap.rb:58:in `each'
+rack (2.2.3) lib/rack/urlmap.rb:58:in `call'
+rack (2.2.3) lib/rack/builder.rb:244:in `call'
+puma (5.2.1) lib/puma/configuration.rb:247:in `call'
+puma (5.2.1) lib/puma/request.rb:76:in `block in handle_request'
+puma (5.2.1) lib/puma/thread_pool.rb:337:in `with_force_shutdown'
+puma (5.2.1) lib/puma/request.rb:75:in `handle_request'
+puma (5.2.1) lib/puma/server.rb:431:in `process_client'
+puma (5.2.1) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "the_gossip_project_development"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "the_gossip_project_test"[0m
+  [1m[35m (167.6ms)[0m  [1m[35mCREATE DATABASE "the_gossip_project_development" ENCODING = 'unicode'[0m
+  [1m[35m (66.7ms)[0m  [1m[35mCREATE DATABASE "the_gossip_project_test" ENCODING = 'unicode'[0m
+  [1m[35m (3.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (5.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4833031731104927805)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20210208095358)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (3.6ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210208095358"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateGossips (20210208100002)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (4.6ms)[0m  [1m[35mCREATE TABLE "gossips" ("id" bigserial primary key, "title" character varying, "content" text, "user_id" bigint, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE INDEX "index_gossips_on_user_id" ON "gossips" ("user_id")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210208100002"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-02-08 10:58:45.452662"], ["updated_at", "2021-02-08 10:58:45.452662"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(4833031731104927805)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 11:59:21 +0100
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 40.9ms | Allocations: 16853)
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.0ms | Allocations: 19776)
+
+
+  
+ActionView::Template::Error (Webpacker configuration file not found /Users/volpito/Documents/GitHub/S03J01/THP_GOSSIP_PROJECt/config/webpacker.yml. Please run rails webpacker:install Error: No such file or directory @ rb_sysopen - /Users/volpito/Documents/GitHub/S03J01/THP_GOSSIP_PROJECt/config/webpacker.yml):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 12:01:42 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 8.4ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 3595)
+Completed 200 OK in 23ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 6118)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 12:39:23 +0100
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.6ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 38.4ms | Allocations: 15283)
+Completed 200 OK in 57ms (Views: 41.5ms | ActiveRecord: 0.0ms | Allocations: 17876)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2021-02-08 12:39:23 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/home"):
+  
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 12:39:25 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.5ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 3951)
+Completed 200 OK in 22ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 6545)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 12:40:31 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.5ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 370.7ms | Allocations: 1750)
+Completed 500 Internal Server Error in 379ms (ActiveRecord: 0.0ms | Allocations: 4311)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <title>TheGossipProject</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <% <h1>Bonjour !</h1> %>
+    </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <title>TheGossipProject</title>
+5:        <meta name="viewport" content="width=device-width,initial-scale=1">
+6:        <%= csrf_meta_tags %>
+7:        <%= csp_meta_tag %>
+8:    
+9:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+10:        <% <h1>Bonjour !</h1> %>
+11:        </head>
+12:    
+13:      <body>
+14:        <%= yield %>
+15:      </body>
+16:    </html>
+  
+app/views/layouts/application.html.erb:10: syntax error, unexpected '<', expecting `end'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '!', expecting `do' or '{' or '('
+app/views/layouts/application.html.erb:11: unknown regexp options - had
+app/views/layouts/application.html.erb:13: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:15: syntax error, unexpected '<', expecting `end'
+app/views/layouts/application.html.erb:16: unknown regexp options - htl
+app/views/layouts/application.html.erb:19: unterminated string meets end of file
+app/views/layouts/application.html.erb:19: syntax error, unexpected end-of-input, expecting `end'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '<', expecting `end'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '!', expecting `do' or '{' or '('
+app/views/layouts/application.html.erb:11: unknown regexp options - had
+app/views/layouts/application.html.erb:13: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:15: syntax error, unexpected '<', expecting `end'
+app/views/layouts/application.html.erb:16: unknown regexp options - htl
+app/views/layouts/application.html.erb:19: unterminated string meets end of file
+app/views/layouts/application.html.erb:19: syntax error, unexpected end-of-input, expecting `end'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '<', expecting `end'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '!', expecting `do' or '{' or '('
+app/views/layouts/application.html.erb:11: unknown regexp options - had
+app/views/layouts/application.html.erb:13: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:15: syntax error, unexpected '<', expecting `end'
+app/views/layouts/application.html.erb:16: unknown regexp options - htl
+app/views/layouts/application.html.erb:19: unterminated string meets end of file
+app/views/layouts/application.html.erb:19: syntax error, unexpected end-of-input, expecting `end'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '<', expecting `end'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '!', expecting `do' or '{' or '('
+app/views/layouts/application.html.erb:11: unknown regexp options - had
+app/views/layouts/application.html.erb:13: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:15: syntax error, unexpected '<', expecting `end'
+app/views/layouts/application.html.erb:16: unknown regexp options - htl
+app/views/layouts/application.html.erb:19: unterminated string meets end of file
+app/views/layouts/application.html.erb:19: syntax error, unexpected end-of-input, expecting `end'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '<', expecting `end'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '!', expecting `do' or '{' or '('
+app/views/layouts/application.html.erb:11: unknown regexp options - had
+app/views/layouts/application.html.erb:13: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:15: syntax error, unexpected '<', expecting `end'
+app/views/layouts/application.html.erb:16: unknown regexp options - htl
+app/views/layouts/application.html.erb:19: unterminated string meets end of file
+app/views/layouts/application.html.erb:19: syntax error, unexpected end-of-input, expecting `end'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '<', expecting `end'
+app/views/layouts/application.html.erb:10: syntax error, unexpected '!', expecting `do' or '{' or '('
+app/views/layouts/application.html.erb:11: unknown regexp options - had
+app/views/layouts/application.html.erb:13: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:15: syntax error, unexpected '<', expecting `end'
+app/views/layouts/application.html.erb:16: unknown regexp options - htl
+app/views/layouts/application.html.erb:19: unterminated string meets end of file
+app/views/layouts/application.html.erb:19: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 12:41:00 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.6ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3951)
+Completed 200 OK in 15ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 6544)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 12:41:06 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.8ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 3951)
+Completed 200 OK in 17ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 6544)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2021-02-08 12:41:07 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/home"):
+  
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 12:41:19 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.5ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3951)
+Completed 200 OK in 16ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 6544)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 12:42:43 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.5ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3951)
+Completed 200 OK in 15ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 6544)
+
+
+Started GET "/static_pages/team" for 127.0.0.1 at 2021-02-08 12:42:47 +0100
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#team as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/team.html.erb within layouts/application
+  Rendered static_pages/team.html.erb within layouts/application (Duration: 0.5ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 3951)
+Completed 200 OK in 14ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 6544)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-02-08 12:42:48 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.5ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 3951)
+Completed 200 OK in 14ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 6544)
+
+

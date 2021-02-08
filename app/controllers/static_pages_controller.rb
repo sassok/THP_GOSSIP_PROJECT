@@ -1,5 +1,7 @@
 class StaticPagesController < ApplicationController
   def team
+  end
   
-end
+  def contact 
+  end
 end
