@@ -1,7 +1,14 @@
 <h1>Page new </h1>
 
+
 <html>
   <body>
+  <% flash.each do |type, msg| %>
+    <div class="alert alert-danger" role="alert">
+      <%= msg %>
+    </div>
+  <% end %>
+  
     <!-- ... -->
 
     <%= form_tag gossips_path(action: 'create'), method: "post" do %>
@@ -16,9 +23,12 @@
 
 
       <%= submit_tag "Create Gossip" %>
-
+      
     <% end %>
 
     <!-- ... -->
+
   </body>
+ 
 </html>
+

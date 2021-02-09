@@ -12,9 +12,11 @@ class GossipsController < ApplicationController
     if @gossip.save # essaie de sauvegarder en base @gossip
       # si ça marche, il redirige vers la page d'index du site
       redirect_to home_path
+      flash.notice = "Gossip bien enregistré"
     else
       # sinon, il render la view new (qui est celle sur laquelle on est déjà)
-      render new_gossip_path
+      redirect_to new_gossip_path
+      flash.alert = "Try again, le Gossip n'est pas complet !!!"
     end
   end
 end
