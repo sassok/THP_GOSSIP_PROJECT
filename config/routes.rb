@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :gossips, only: [:new, :create]
   get 'user/:id', to: 'user#show'
   get 'gossips/:id', to: 'gossips#show'
   get '/home/', to: 'home#home'
